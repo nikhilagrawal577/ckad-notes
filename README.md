@@ -1,6 +1,12 @@
 # ckad-notes
 A set of notes, practice test references to prepare for Certified Kubernetes Application Developer exam by Cloud Native Computing Foundation
 
+**How to crack CKAD in 1st attempt**
+
+https://medium.com/@nikhilagrawal577/how-to-pass-ckad-exam-in-1st-attempt-tips-tricks-in-k8s-9e14477699ca
+
+
+
 **Section Weightage Marks :**
 
  1. Core Concepts - 13% 
@@ -148,3 +154,10 @@ Things you should know and fast in doing
 
 3. https://codeburst.io/kubernetes-ckad-weekly-challenges-overview-and-tips-7282b36a2681
 	
+
+
+
+
+**How to crack CKAD in 1st attempt**
+
+https://medium.com/@nikhilagrawal577/how-to-pass-ckad-exam-in-1st-attempt-tips-tricks-in-k8s-9e14477699ca
