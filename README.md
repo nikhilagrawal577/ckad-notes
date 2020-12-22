@@ -1,8 +1,9 @@
-# ckad-notes
-A set of notes, practice test references to prepare for Certified Kubernetes Application Developer exam by Cloud Native Computing Foundation
+# Stratergies-To-Crack-CKAD 
+It includes a set of notes and practice test references to prepare for Certified Kubernetes Application Developer exam by Cloud Native Computing Foundation
 
 **How to crack CKAD in 1st attempt**
 
+Refer the below given link 
 https://medium.com/@nikhilagrawal577/how-to-pass-ckad-exam-in-1st-attempt-tips-tricks-in-k8s-9e14477699ca
 
 
@@ -19,12 +20,12 @@ https://medium.com/@nikhilagrawal577/how-to-pass-ckad-exam-in-1st-attempt-tips-t
 
 **Details :**
 
-Core Concepts – 13%
+1. Core Concepts – 13%
 
 -   Understand Kubernetes API primitives
 -   Create and Configure Basic Pods
 
-Configuration – 18%
+2. Configuration – 18%
 
 -   Understand ConfigMaps
 -   Understand SecurityContexts
@@ -32,37 +33,37 @@ Configuration – 18%
 -   Create & consume Secrets
 -   Understand ServiceAccounts
 
-Multi-Container Pods – 10%
+3. Multi-Container Pods – 10%
 
 -   Understand Multi-Container Pod design patterns (e .g. ambassador, adapter, sidecar)
 
-Observability – 18%
+4. Observability – 18%
 
 -   Understand LivenessProbes and ReadinessProbes
 -   Understand container logging
 -   Understand how to monitor applications in Kubernetes
 -   Understand debugging in Kubernetes
 
-Pod Design – 20%
+5. Pod Design – 20%
 
 -   Understand how to use Labels, Selectors, and Annotations
 -   Understand Deployments and how to perform rolling updates
 -   Understand Deployments and how to perform rollbacks
 -   Understand Jobs and CronJobs
 
-Services & Networking – 13%
+6. Services & Networking – 13%
 
 -   Understand Services
 -   Demonstrate basic understanding of NetworkPolicies
 
-State Persistence – 8%
+7. State Persistence – 8%
 
 -   Understand PersistentVolumeClaims for storage
 
 
 ### **Information About the Test:**
 
-Once you schedule the test, you can’t reschedule or cancel before 24hr of the scheduled test. You will get 1 free retake incase you didn’t qualify in first attempt.
+Once you schedule the test, you can’t reschedule or cancel it before 24hr of the scheduled test. You will get 1 free retake incase you didn’t qualify in first attempt.
 
 _Here is the following details about the test._
 
@@ -85,7 +86,7 @@ I have noted down few imperative commands. It saves alot of time during the test
 5.  K create secret generic abcd — from-literal=id=1
 6.  K create congimap cm1 — from-literal=id=1
 
-#### Generating Yamls
+#### **Generating Yamls**
 
 _Don’t try to write your own yamls at the exam._  
 **_1. Pods , Deployments, Secrets, Configmaps, Jobs, Cron jobs_**  
@@ -98,9 +99,9 @@ These yamls can easily fetched from k8s.io documentations.
 
 #### Editor
 
-Be familiar with the editor you want to use. In my case , I used Vi.  
-Things you should know and fast in doing
+Be familiar with the editor you want to use. In my case , I have used Vi.  
 
+**Things you should know better and fast in doing**
 1.  Find and replace
 2.  Going to exact line
 3.  Deleting the word and line
@@ -119,7 +120,7 @@ Things you should know and fast in doing
 6.  As weightage is already given for each question, if some less weightage question is taking more time to solve , you can skip and come back to that question later part of the test.
 7.  Make sure, you are executing the commands in the **provided namespace**.
 8.  **Be familiar with mouse or trackpad** as you need them to copy paste few names of the objects from the questions and to copy yaml from Kubernete.io page.
-9.  Be an expert in terms of **Imperative commands** . It saves quite a lot of time
+9.  Be an expert in terms of **Imperative commands** . It saves quite a lot of time.
 10.  Don’t waste time in typing yaml codes. Generate Yamls
 
 # Articles : 
@@ -138,7 +139,7 @@ Things you should know and fast in doing
 
 
 
-# Course :
+# Courses :
 1. https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/
 
 2. https://www.katacoda.com/courses/kubernetes 
@@ -147,7 +148,7 @@ Things you should know and fast in doing
 	
 
 
-# Practice Test 
+# Practice Tests : 
 1. https://github.com/dgkanatsios/CKAD-exercises [Highly recommended]
 
 2. https://kodekloud.com/courses/kubernetes-certification-course/lectures/6743640
